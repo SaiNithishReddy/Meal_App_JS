@@ -1,0 +1,148 @@
+/* CSS styles go here */
+        /* Media Query */
+        @media screen and (max-width: 480px) {
+            /* FOR NAV BAR ELEMENT */
+            .mynavclass{
+                display: none;
+            }
+            /* CAROUSEL DIVISION */
+            .mycarouselimg{
+                min-width: 40%;
+            }
+            
+            /* FOR FOOTER DIVISION */
+            footer{
+                padding-left: 20px;
+            }
+        }
+
+        /* TAGS */
+        body{
+            min-width: 200px;
+        }
+        /* NAV TAGS */
+        nav{
+            margin-bottom: 10px;
+        }
+        /* CAROUSEL  CLASSES */
+        h3{
+            color: black;
+            text-shadow: black;
+        }
+        /* Search Input  */
+        .mysearch{
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        /* Style for the favorite items container */
+        .favorites-container {
+            display: flex;
+            flex-direction: column; /* Display items vertically */
+            max-height: 300px; /* Set a maximum height for the container */
+            overflow-y: auto; 
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Style for each favorite item */
+        .favorite-item {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        .favorite-item img {
+            max-width: 150px;
+            max-height: 150px;
+        }
+
+        .favorite-item h3 {
+            margin-top: 10px;
+        }
+
+        /* Media Query for adjusting the layout on smaller screens */
+        @media screen and (max-width: 1440px) {
+            .favorites-container {
+                max-height: none; 
+            }
+        }
+
+        /* BODY TAGS */
+        h1{
+            text-align: center;
+            text-decoration: solid;
+            text-shadow: 5px solid black;
+        }
+        /* FOOTER TAG */
+        footer{
+            margin-top: 100px;
+            background-color:lightgray;
+            padding-top: 20px;
+        }
+        h2{
+            color: rgb(213, 93, 93);
+        }
+        h5{
+            color: rgb(29, 62, 71);
+        }
+
+        /* CLASSES */
+        /* NAV CLASSES */
+        .myNavBarForm{
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+        .mynavlogo{
+            margin-right: 5px;
+        }
+        /* CAROUSEL  CLASSES */
+        .mycour{
+          margin-bottom: 30px;
+          padding-left: 30%;
+          padding-right: 30%;
+        }
+        .mycarouselimg{
+            /* padding-left: 40% ; */
+            height: 400px;
+            width: 100%;
+        }
+        /* MAIN BODY */
+        .mymaindiv{
+            border-color: 3px solid black;
+            height: 100px;
+        }
+
+        /* FOOTER CLASSES */
+        .myfootersocial{
+            max-width: 25px;
+            max-height: 25px;
+            align-self: auto;
+        }
+
+        .myfooterdown{
+            max-width: 130px;
+            max-height: 170px;
+            margin-top: 20px;
+            display: block;
+        }
+        /* ID'S */
+
+        #meals {
+            margin-top: 20px;
+        }
+        .meal {
+            display: inline-block;
+            width: 200px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .meal img {
+            width: 100%;
+        }
+
+        .meal h4 {
+            margin-top: 10px;
+        }
