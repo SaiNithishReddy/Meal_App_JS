@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Meal App.css">
+</head>
+<body>
+     <!--NAV BAR SECTION STARTS HERE-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li> -->
+                </ul>
+                <div class="navbar-nav justify-content-center">
+                    <li class="nav-item dropdown mynavlogo dropstart">
+                        <a class="nav-link dropdnavown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <img src="https://th.bing.com/th/id/OIP.Ut6zXEjxDe-enPS65HTUBgHaHx?pid=ImgDet&rs=1" alt="Logo" style="width: 40px;" class="rounded-pill">
+                        </a>
+                        <ul class="dropdown-menu bg-light">
+                            <li><a class="dropdown-item" href="#">PROFILE</a></li>
+                            <li><a class="dropdown-item" href="#">LOGIN / SIGNUP</a></li>
+                            <li><a class="dropdown-item" href="#">ORDERS</a></li>
+                            <li><a class="dropdown-item" href="#">COUPONS</a></li>
+                            <li><a class="dropdown-item" href="#">LOGOUT</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--NAV BAR SECTION ENDS HERE -->
+
+    <!-- Your carousel code here -->
+    <!--Carousel STARTS HERE-->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    </div>
+    <!-- The slideshow/carousel -->
+    <!-- <div class="col-md-3"></div> -->
+    <div class="carousel-inner container col-md-6">
+      <div class="carousel-item active">
+        <a href="#"> <img src="https://th.bing.com/th/id/OIP.udR99ezfr8-qH1-d2zvkuwHaGC?w=239&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Tiffins" class="d-block mycarouselimg"> </a>
+        <div class="carousel-caption">
+          <h3>Tiffins</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="#"> <img src="https://th.bing.com/th/id/OIP.X5IArrGRia8lx_rRvPSStQHaFj?w=227&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Lunch" class="d-block mycarouselimg"> </a>
+        <div class="carousel-caption">
+          <h3>Lunch</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="#"> <img src="https://th.bing.com/th/id/OIP.m0XpznySNPg3qwQB-ajVVQHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Snack" class="d-block mycarouselimg"> </a>
+        <div class="carousel-caption">
+          <h3>Snack</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="#"> <img src="https://th.bing.com/th/id/OIP.ZvKA7iEkU7oChxX8tv0XCAHaE7?w=246&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Dinner" class="d-block mycarouselimg"> </a>
+        <div class="carousel-caption">
+          <h3>Dinner</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="#"> <img src="https://th.bing.com/th/id/OIP.OouIyZUshFtt5iPdkfoThgHaD8?w=338&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Soft Drinks" class="d-block mycarouselimg"> </a>
+        <div class="carousel-caption">
+          <h3 style="color: white;">Soft Drinks</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev"> prev
+      <span class="carousel-control-prev-icon bg-dark"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"> next
+      <span class="carousel-control-next-icon bg-dark"></span>
+    </button>
+  </div>
+  <br>
+  <!--Carousel ENDS HERE-->
+
+    <!-- Search Meals starts here -->
+    <div class="container bg-secondary bg-opacity-50 mysearch">
+        <h2>Search Results</h2>
+        <input type="text" id="search" placeholder="Search for a meal...">
+        <button id="search-btn">Search</button>
+        <div id="meals"></div>
+    </div>
+    <!-- Search Meals ends here -->
+    
+    <!-- My Favorites Items starts here -->
+    <div class="container">
+        <!-- <h1>My Favorite Meals</h1>
+        <div id="favorites-list" class="row favorites-container"></div> -->
+        <h2>Favorites</h2>
+        <div id="favorites-list"></div>
+    </div>
+    <!-- My Favorites Items ends here -->
+
+    <!-- FOOTER SECTION START HERE -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 id="about">ABOUT</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Who We Are</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Report Fraud</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>LEARN MORE</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Privacy</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Security</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Terms</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#">Site Map</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>SOCIAL LINKS</h5>
+                    <!-- Your social links here -->
+                    <a href="#"> <img class="myfootersocial rounded-circle" src="https://th.bing.com/th/id/OIP.ob8o9K7o8ekjLxsRI-gNRQHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Linkdin"> </a>
+                    <a href="#"> <img class="myfootersocial rounded-circle" src="https://th.bing.com/th/id/OIP.gG-LOKGDIwP6sYf4nJ34eQHaHa?w=208&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="FB"> </a>
+                    <a href="#"> <img class="myfootersocial rounded-circle" src="https://th.bing.com/th/id/OIP.Y5s9r7VE1vBh_N3S1mht2wHaFj?w=257&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="INSTA"> </a>
+                    <a href="#"> <img class="myfootersocial rounded-circle" src="https://th.bing.com/th/id/OIP.fge1cEciTkiIuCqSI3zRGQHaGs?w=200&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="YT"> </a>
+                    <a href="#"> <img class="myfootersocial rounded-circle" src="https://th.bing.com/th/id/OIP.I_RKWq1aeUp13IHQtdDcbgHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Twiter"> </a>
+                    <div>
+                        <!-- Download links -->
+                        <a href="#"> <img class="myfooterdown" src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="IOS download"> </a>
+                        <a href="#"> <img class="myfooterdown" src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="Androis download"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION ENDS HERE -->
+
+    <script src="Meal App.js"></script>
+</body>
+</html>
