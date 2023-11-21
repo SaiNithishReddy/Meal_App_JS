@@ -10,7 +10,5 @@ Create a meal app to store and search meals using vanilla javascript.
 ○ Should show information about the meal like its name, photo, instructions, etc (these are must, rest you can add if you want).
 ● My favourite meals Page
 ○ Display a list of all the favourite meals.
-○ Make this list persistent (should have the same number of meals before and after
-closing the browser/refreshing the browser).
-○ Remove from favourites button: Each meal should have remove from favourites
-button, clicking on which should remove that meal from the list.
+○ Make this list persistent (should have the same number of meals before and after closing the browser/refreshing the browser).
+○ Remove from favourites button: Each meal should have remove from favourites button, clicking on which should remove that meal from the list.
