@@ -1,6 +1,8 @@
 # Meal_App_JS
 # Problem statement
 Create a meal app to store and search meals using vanilla javascript.
+# Hosted Link
+https://sainithishreddy.github.io/Meal_App_JS/
 # Features
 ● Home Page
 ○ Search any meal from the API and display the search results on the frontend (as I type the search results should update, just like Google does for suggestions).
